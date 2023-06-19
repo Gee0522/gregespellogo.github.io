@@ -21,6 +21,7 @@
 
 
 <body>
+
     <!-- Header section start -->
     <header>
 
@@ -214,17 +215,42 @@
 
         <form action="https://formsubmit.co/gregespellogo@gmail.com" method="POST">
 
-            <input type="text" name="name" placeholder="name.." class="box">
+            <input type="text" name="name" placeholder="name.." class="box" required>
             <input type="email" name="email" placeholder="email address.." class="box" required>
             <input type="text" name="_subject" placeholder="subject.." class="box" required>
             <textarea name="message" id="" cols="30" rows="10" class="box message" placeholder="Message.." required></textarea>
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_next" value="https://gee0522.github.io/Gee0522.github.io">
-            <button type="submit" class="btn btn-primary" required> Send <i class="fas fa-paper-plane"></i> </button>
+            <input type="hidden" name="_next" value="https://gee0522.github.io/Gee0522.github.io/thanks">
+            <!-- <button type="submit" class="btn btn-primary"> Send <i class="fas fa-paper-plane"></i> </button> -->
+            <!-- Popup -->
+
+            <div class="popup center">
+                <div class="icon">
+                    <i class="fa fa-check"></i>
+                </div>
+                <div class="title">
+                    Success!!
+                </div>
+                <div class="description">
+                    Thank you for messaging.
+                </div>
+                <div class="dismiss-btn">
+                    <button id="dismiss-popup-btn">
+                        Close
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="center"> -->
+                <button type="submit" id="open-popup-btn" class="btn btn-primary">
+                    Send
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            <!-- </div> -->
             
 
         </form>
+        
 
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.610978596787!2d121.04199841524209!3d14.84707577496822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397af2d9aad249b%3A0xffd4214913a6e3a6!2s368%20Sto.%20Nino%20St%2C%20San%20Jose%20del%20Monte%20City%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1653388373744!5m2!1sen!2sph"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -260,4 +286,6 @@
 
     
 </body>
+
+
 </html>
