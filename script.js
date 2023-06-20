@@ -17,10 +17,7 @@ $(document).ready(function(){
     }
 
   });
-
-
-    
-    
+  
 
   // smooth scrolling 
 
@@ -40,3 +37,12 @@ $(document).ready(function(){
   });
 
 });
+
+
+
+
+
+
+
+
+
